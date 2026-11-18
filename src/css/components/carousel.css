@@ -5,12 +5,20 @@ img {
 }
 
 /* Mise en forme des boutons */
+.carousel {
+  position: relative;
+}
+
 .carousel__controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
   display: flex;
-  gap: 16px;
-  align-items: center;
-  justify-content: center;
-  margin: 16px 0;
+  justify-content: space-between;
+  padding: 0 10px;
+  pointer-events: none;
 }
 
 .carousel__button {
@@ -21,6 +29,9 @@ img {
   justify-content: center;
   border: 1px solid black;
   border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 .carousel__button--prev {
