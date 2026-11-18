@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Baranowska 
+- prénom : Oliwia
+- URL Netlify : lucent-starlight-31430e.netlify.app
 
 # Travail
 
