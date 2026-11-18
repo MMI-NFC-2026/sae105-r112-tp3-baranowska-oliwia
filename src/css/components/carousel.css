@@ -47,12 +47,8 @@ scroll-snap-type: x mandatory;
 }
 
 .carousel__item {
-display: flex;
-gap: 16px;
-overflow-x: scroll;
-margin-left: -24px;
-margin-right: -24px;
-scroll-snap-type: x mandatory;
+flex: 0 0 260px;
+scroll-snap-align: center;
 }
 
 .carousel__item img {
