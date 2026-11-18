@@ -1,5 +1,5 @@
-- nom :
-- prénom :
+- nom : Baranowska 
+- prénom : Oliwia
 - URL Netlify :
 
 # Travail
